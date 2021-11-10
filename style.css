@@ -1,0 +1,40 @@
+*, *::before, *::after {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 255, 170));
+}
+
+.calculator {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+button {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: rgba(255, 255, 255, 0.63);
+    border: 2px solid rgba(255, 255, 255, 0.664);
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+button:hover {
+    background-color: rgba(255, 255, 255, 0.856);
+}
+
+#screen {
+    height: 3rem;
+    width: 240px;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: rgba(34, 34, 34, 0.904);
+}
+
